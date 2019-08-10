@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main()
+{
+   int x,p,s=0,t=0;
+   scanf("%d%d",&x,&p);
+if(X>=0 && X<=10000 && P>=0 &&P<=100)
+   {
+       while(x>1)
+       {
+           s=(x*p)/100;
+            t=t+s;
+           x=x-s;
+       }
+   }
+   else
+   return 0;
+       printf("%d",t);
+       return 0;
+}
